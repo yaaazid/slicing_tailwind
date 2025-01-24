@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-link {
+    @apply text-xl hover:text-mango transition duration-150 ease-in-out
+}
+
+.img-profile {
+    @apply aspect-square w-12 object-cover rounded-full
+}
+
+.img-content {
+    @apply flex flex-row justify-between items-center p-6 bg-background/15 backdrop-blur translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out
+}
